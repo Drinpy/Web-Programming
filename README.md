@@ -10,9 +10,12 @@
 </br>
 
 ---
+<ui>
 
-#### `"_blank"` dentro de um target faz com que o link abra em outra página.
+#### <li> `"_blank"` dentro de um target faz com que o link abra em outra página.
 
 </br>
 
-#### Nem todas as propriedades são herdadas no elemento como por exemplo a 'largura'.
+#### <li> Nem todas as propriedades são herdadas no elemento como por exemplo a 'largura'.
+
+</ui>
