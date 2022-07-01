@@ -1,7 +1,9 @@
 # Web-Programming
 ---
 
-### `07/06/22`
+<details>
+
+<summary> <b> 07/06/22 </b> </summary>
 
 </br>
 
@@ -23,3 +25,5 @@
 #### <li> Nem todas as propriedades são herdadas no elemento como por exemplo a 'largura'.
 
 </ui>
+
+</details>
