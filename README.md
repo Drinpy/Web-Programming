@@ -28,14 +28,12 @@
 
 </details>
 
-</br>
-
 <details>
 
-  <summary> <b> 04/07/22 </summary>
+  <summary> <b> 04/07/22 (My First WordPress Website) </summary>
 
 </br>
 
-<a href="https://drinpe4.wordpress.com/"> My First WordPress Website!</a>
+<a href="https://drinpe4.wordpress.com/"> WordPress Website!</a>
   
 </details>
