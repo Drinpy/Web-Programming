@@ -30,10 +30,38 @@
 
 <details>
 
-  <summary> <b> 04/07/22 (My First WordPress Website) </summary>
+  <summary> <b> 04/07/22 (My First WordPress Website) </b> </summary>
 
 </br>
 
 <a href="https://drinpe4.wordpress.com/"> WordPress Website!</a>
+  
+</details>
+
+<details> 
+  <summary> <b>19/07/22</b> </summary>
+    <h3> HTML: Elementos & Atributos usados no Módulo de introdução do Html</h3>
+      <h4> <b> Elementos <b> <h4>
+    <ul>
+      <li> p = parágrafo </li>
+      <li> em = ênfase </li>
+      <li> img = tag para colocar imagem </li>
+      <li> input = coloca controles interativos </li>
+      <li> p = parágrafo </li>
+      <li> p = parágrafo </li>
+      <li> p = parágrafo </li>
+      <li> p = parágrafo </li>
+      <li> p = parágrafo </li>
+      <li> p = parágrafo </li>
+      <li> p = parágrafo </li>
+      <li> p = parágrafo </li>
+      <li> p = parágrafo </li>
+      <li> p = parágrafo </li>
+      <li> p = parágrafo </li>
+      <li> p = parágrafo </li>
+      
+    <ul>
+  
+  
   
 </details>
