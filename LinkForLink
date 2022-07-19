@@ -7,9 +7,10 @@
     <title>A</title>
   </head>
   <body>
-    <h2>Meu Site</h2>
-     <!-- Precisa ter o arquivo 'LinkWordpress.html' no mesmo ambiente! -->
-    <form action="/LinkWordpress.html">
+    <h2>w3schools</h2>
+
+     <!-- Precisa ter o arquivo 'LinkTeste.html' no mesmo ambiente! -->
+    <form action="/LinkTeste.html">
       <input type="submit" value="Click Here" />
     </form>
   </body>
