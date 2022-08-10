@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,14 +7,14 @@
 }
 
 .primo {
-    background-color: rgb(14, 13, 13);
+    background-color: #191919;
     padding: 1.5rem;
     list-style: none;
     display: flex;
 }
 
 .bemvindo {
-    font-family: sans-serif;
+    font-family: 'Fondamento', cursive;
     text-align: center;
     color: aliceblue;
     background-image: url("/elden.jpeg");
@@ -26,8 +28,27 @@
     flex-direction: column;
     justify-content: center;
     filter: grayscale(50%);
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: .20em;
 }
-
+.sobre{
+    text-transform: uppercase;
+    font-size: 0.8cm;
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+    color: rgba(134, 26, 26, 0.712);
+    font-family: 'Fondamento', cursive;
+    letter-spacing: .20em;
+}
+.eu{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Fondamento', cursive;
+    opacity: 0.7;
+}
 
 
 ul>li>a {
@@ -36,6 +57,6 @@ ul>li>a {
 }
 
 body {
-    background-color: rgb(30, 197, 197);
+    background-color: #0a0a0a;
     color: aliceblue;
 }
