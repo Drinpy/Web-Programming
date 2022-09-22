@@ -51,9 +51,6 @@
       <li> html = root element </li>
       <li> head = elemento que engloba informaçẽos para a máquina </li>
       <li> meta = para meta relacionáveis </li>
-  
     </ul>
-  
-  
   
 </details>
