@@ -51,14 +51,7 @@
       <li> html = root element </li>
       <li> head = elemento que engloba informaçẽos para a máquina </li>
       <li> meta = para meta relacionáveis </li>
-      <li> p = parágrafo </li>
-      <li> p = parágrafo </li>
-      <li> p = parágrafo </li>
-      <li> p = parágrafo </li>
-      <li> p = parágrafo </li>
-      <li> p = parágrafo </li>
-      <li> p = parágrafo </li>
-      <li> p = parágrafo </li>
+  
     </ul>
   
   
