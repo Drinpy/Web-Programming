@@ -26,8 +26,15 @@
 
     main {
       padding: 2rem;
-      max-width: 600px;
+      max-width: 1000px;
       margin: 0 auto;
+    }
+
+    .link-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 300px);
+      gap: 1rem;
+      justify-content: center;
     }
 
     .link-card {
@@ -35,28 +42,36 @@
       border-left: 5px solid #00CED1; /* ciano */
       border-radius: 8px;
       padding: 1rem 1.5rem;
-      margin-bottom: 1rem;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-decoration: none;
+      color: inherit;
       transition: transform 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      min-height: 50px;
+      height: 50%;
     }
 
     .link-card:hover {
       transform: scale(1.02);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     }
 
     .link-title {
       font-size: 1.2rem;
       color: #007BFF; /* azul */
-      margin-bottom: 0.5rem;
+      font-weight: bold;
+      word-wrap: break-word;
+      max-width: 100%;
     }
 
-    .link-url {
-      color: #333;
-      text-decoration: none;
-    }
-
-    .link-url:hover {
-      text-decoration: underline;
+    /* Mobile: uma coluna só */
+    @media (max-width: 650px) {
+      .link-grid {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
@@ -68,19 +83,22 @@
   </header>
 
   <main>
-    <div class="link-card">
-      <div class="link-title">Site Institucional</div>
-      <a href="https://nidustec.com.br" class="link-url" target="_blank">https://nidustec.com.br</a>
-    </div>
+    <div class="link-grid">
+      <a href="https://nidustec.com.br" class="link-card" target="_blank">
+        <div class="link-title">Site Institucional</div>
+      </a>
 
-    <div class="link-card">
-      <div class="link-title">Portal de Startups</div>
-      <a href="https://startups.nidustec.com.br" class="link-url" target="_blank">https://startups.nidustec.com.br</a>
-    </div>
+      <a href="https://startups.nidustec.com.br" class="link-card" target="_blank">
+        <div class="link-title">Portal de Startups</div>
+      </a>
 
-    <div class="link-card">
-      <div class="link-title">Contato</div>
-      <a href="mailto:contato@nidustec.com.br" class="link-url">contato@nidustec.com.br</a>
+      <a href="mailto:contato@nidustec.com.br" class="link-card">
+        <div class="link-title">Contato</div>
+      </a>
+
+      <a href="https://nidustec.com.br/blog" class="link-card" target="_blank">
+        <div class="link-title">Blog e Notícias da NidusTec Incubadora</div>
+      </a>
     </div>
   </main>
 
